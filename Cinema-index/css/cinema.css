@@ -1,0 +1,541 @@
+.banner{
+    width: 100%;
+    height: 320px;
+    background: url("../images/cinema_banner_default.jpg") center top no-repeat;
+    /*background-size: 100% auto;*/
+}
+.banner_main{
+    width: 980px;
+    height: 320px;
+    margin: 0 auto;
+}
+.banner_main .p_nav{
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #fff;
+}
+.banner_bottom{
+    overflow: hidden;
+    padding-top: 35px;
+}
+.banner_bottom_left{
+    float: left;
+    width: 144px;
+    height: auto;
+    margin-right: 30px;
+}
+.banner_bottom_left img{
+    width: 144px;
+    height: 102px;
+}
+.banner_bottom_left p{
+    font-size: 12px;
+    color: #969696;
+    margin-top: 10px;
+    text-align: center;
+}
+.banner_bottom_right{
+    float: left;
+}
+.banner_bottom_right h2{
+    font-size: 26px;
+    color: #fff;
+    font-weight: 300;
+}
+.banner_bottom_right .p1{
+    font-size: 14px;
+    color: #969696;
+    line-height: 30px;
+}
+.banner_bottom_right a{
+    display: block;
+    width: 85px;
+    height: 25px;
+    color: #fff;
+    background-color: #00d1ff;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.cinema_addrss{
+    font-size: 14px;
+    color: #fff;
+    line-height: 30px;
+}
+.content{
+    width: 980px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 30px;
+    overflow: hidden;
+}
+.content_left{
+    float: left;
+    width: 635px;
+}
+.buyTickets_tittle{
+    font-size: 20px;
+    color: black;
+    border-left: 4px solid #ff6600;
+    padding-left: 10px;
+    border-bottom: 1px solid grey;
+    height: 30px;
+}
+.buyTickets_choose{
+    height: auto;
+    padding: 20px 20px 0 20px;
+    background-color: #f5f8fd;
+    overflow: hidden;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.choose_film{
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.choose_film span{
+    display: block;
+    float: left;
+    font-weight: bolder;
+    font-size: 14px;
+}
+.film_name,.film_time{
+    float: left;
+    font-size: 12px;
+    width: 500px;
+    margin-left: 10px;
+}
+.film_name a,.film_time a{
+    font-size: 14px;
+    color: black;
+    margin-right: 10px;
+    line-height: 25px;
+}
+.film_intro{
+    padding: 20px 0;
+    overflow: hidden;
+}
+.film_intro img{
+    float: left;
+    width: 90px;
+    height: 130px;
+    margin-right: 20px;
+}
+.film_intro_text{
+    float: left;
+    width: 515px;
+}
+.film_intro_text_tittle{
+    font-size: 20px;
+    color: black;
+}
+.film_intro_text_tittle span{
+    display: block;
+    font-size: 14px;
+    float: right;
+    background: url("../images/ready_time.png") 0 0 no-repeat;
+    padding-left: 20px;
+    height: 15px;
+    line-height: 15px;
+}
+.film_intro_text_info{
+    font-size: 14px;
+    line-height: 25px;
+}
+.buy_film_info_tittle{
+    overflow: hidden;
+    padding: 10px 5px;
+    background-color: #f5f8fd;
+}
+.buy_film_info_tittle li{
+    float: left;
+    margin-right: 40px;
+    font-size: 14px;
+    color: grey;
+}
+.li_noMargin{
+    margin-right: 0 !important;
+}
+.buy_film_info_main{
+    overflow: hidden;
+    padding: 20px 0;
+    border-bottom: 1px dashed gainsboro;
+}
+.buy_film_info_main li{
+    float: left;
+}
+.li1{
+    width: 100px;
+}
+
+.li2{
+    width: 100px;
+}
+.lang1{
+    padding-left: 10px;
+    display: block;
+}
+.lang2{
+    padding-left: 15px;
+    display: block;
+}
+.li3{
+    width: 85px;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.film_time{
+    display: block;
+    font-size: 24px;
+}
+.film_overTimer{
+    display: block;
+    font-size: 13px;
+    color: grey;
+}
+.li4{
+    width: 77px;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.li4 a{
+    background: url("../images/film_search.png");
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+}
+.li5{
+    width: 80px;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.li6{
+    width: 96px;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.li6 .money{
+    display: block;
+    color: #ff6600;
+}
+.li7{
+    width: 90px;
+    height: 30px;
+    background-color: #ff6600;
+}
+.li7 span{
+    width: 90px;
+    height: 30px;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+}
+.film_comments{
+    margin-top: 40px;
+}
+.comments_tittle{
+    font-size: 20px;
+    color: black;
+    border-left: 4px solid #008cff;
+    padding-left: 10px;
+    border-bottom: 1px solid grey;
+    height: 30px;
+}
+.comments_tittle span{
+    display: inline-block;
+    float: right;
+    font-size: 16px;
+}
+.comments_tittle span strong{
+    color: #ff6600;
+}
+.comments_input{
+    padding: 20px 0 10px;
+    border-bottom: 1px dashed gainsboro;
+    overflow: hidden;
+}
+.comments_input_left{
+    float: left;
+    width: 60px;
+}
+.comments_input_left span{
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: url("../images/h143.jpg") center top;
+    background-size: 60px 60px;
+    border-radius: 60px;
+}
+.comments_input_left a{
+    display: block;
+    color: #39b9d6;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin-top: 10px;
+}
+.comments_input_right{
+    float: right;
+    width: 540px;
+    height: 115px;
+    background-color: #fff;
+    border: 2px solid #bce1ff;
+}
+.comments_input_right p{
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    background-color: #ecf6fe;
+}
+.star_left{
+    display: inline-block;
+    width: 20px;
+    height: 21px;
+    vertical-align: -5px;
+    /*margin-right: 10px;*/
+    background: url("../images/discuss_left_kong.png") left top no-repeat;
+}
+.star_right{
+    display: block;
+    width: 20px;
+    height: 21px;
+    background: url("../images/discuss_right_kong.png") right top no-repeat;
+}
+.textarea{
+    width: 535px;
+    height: 70px;
+    border: none;
+    outline: none;
+    text-indent: 10px;
+}
+.comments_btn{
+    width: 90px;
+    height: 30px;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    background-color: #008cff;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: right;
+}
+.comments_info_li{
+    overflow: hidden;
+    padding: 20px 0;
+    border-bottom: 1px dashed gainsboro;
+}
+.comments_info_li_headImg{
+
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    float: left;
+    margin-right: 30px;
+}
+.head1{
+    background: url("../images/h140.jpg") center top;
+    background-size: 60px 60px;
+}
+.head2{
+    background: url("../images/h141.jpg") center top;
+    background-size: 60px 60px;
+}
+.head3{
+    background: url("../images/h142.jpg") center top;
+    background-size: 60px 60px;
+}
+.head4{
+    background: url("../images/h143.jpg") center top;
+    background-size: 60px 60px;
+}
+.head5{
+    background: url("../images/h144.jpg") center top;
+    background-size: 60px 60px;
+}
+.comments_info_li_right{
+    float: left;
+    width: 540px;
+}
+.comments_info_li_right p{
+    font-size: 14px;
+    color: grey;
+    line-height: 40px;
+}
+.comments_info_tittle>span:nth-child(1){
+    color: #176ac7;
+}
+.comments_info_tittle>span:nth-child(2){
+    float: right;
+    color: grey;
+}
+.comments_info_star>span:last-child{
+    display: block;
+    float: right;
+    width: 40px;
+    height: 15px;
+    line-height: 15px;
+    background: url("../images/discuss_default.png") right top no-repeat;
+}
+.star_ori{
+    display: inline-block;
+    width: 19px;
+    height: 18px;
+    background: url("../images/discuss_one.png") 0 0 no-repeat;
+}
+.star_half{
+    display: inline-block;
+    width: 19px;
+    height: 18px;
+    background: url("../images/discuss_two.png") 0 0 no-repeat;
+}
+.star_grey{
+    display: inline-block;
+    width: 19px;
+    height: 18px;
+    background: url("../images/discuss_three.png") 0 0 no-repeat;
+}
+.page{
+    width: 100%;
+    height: auto;
+}
+.page1{
+    width: 30px;
+    height: 30px;
+    background-color: #ff6900;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    margin: 30px auto 135px;
+}
+.content_right{
+    width: 305px;
+    height: auto;
+    float: right;
+}
+.content_right_div_tittle{
+    font-size: 20px;
+    color: black;
+    border-left: 4px solid #008cff;
+    padding-left: 10px;
+    border-bottom: 1px solid grey;
+    height: 30px;
+}
+.cinema_map img{
+    width: 300px;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.cinema_img_main{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    position: relative;
+}
+.cinema_img_main div{
+    background: url("../images/s3776ab6a_149364d3eae__7e25.jpg");
+    background-size: 235px 180px;
+    width: 235px;
+    height: 180px;
+    margin: 0 auto;
+}
+.prev{
+    display: block;
+    width: 30px;
+    height: 72px;
+    background: url("../images/fast_left.png") 0 0px no-repeat;
+    position: absolute;
+    left: 1px;
+    top: 53px;
+}
+.next{
+    display: block;
+    width: 30px;
+    height: 72px;
+    background: url("../images/fast_right.png") 0 0 no-repeat;
+    position: absolute;
+    left: 275px;
+    top: 53px;
+}
+.cinema_region{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+.search_cinemaInput{
+    width: 218px;
+    height: 33px;
+    border: 1px solid #ffc3b2;
+    text-indent: 10px;
+    outline: none;
+}
+.search_cinemaBtn{
+    width: 80px;
+    height: 37px;
+    background-color: #ff6900;
+    text-align: center;
+    line-height: 37px;
+    border: none;
+    outline: none;
+    color: #fff;
+    margin-left: -4px;
+}
+.cinema_region_main{
+    padding: 20px 0;
+    font-size: 12px;
+}
+.cinema_region_main a{
+    /*display: inline-block;*/
+    padding: 0px 4px;
+    line-height: 26px;
+    font-size: 14px;
+    color: black;
+    /*word-wrap: break-word;*/
+    white-space: nowrap;
+}
+.cinema_region_main a:hover{
+    background-color: #ff6900;
+    color: #fff;
+}
+.cinema_others li{
+    padding: 15px 0;
+    overflow: hidden;
+    border-bottom: 1px dashed gainsboro;
+}
+.cinema_others li div{
+    float: left;
+}
+.cinema_others li div>p:nth-child(1){
+    font-size: 14px;
+    color: black;
+    line-height: 26px;
+}
+.cinema_others li div>p:nth-child(2){
+    font-size: 12px;
+    color: black;
+    line-height: 26px;
+}
+.cinema_others li div p span{
+    color: grey;
+}
+.cinema_others li a{
+    display: block;
+    float: right;
+    width: 60px;
+    height: 25px;
+    background-color: #ff6900;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.cinema_others li a:hover{
+    background-color: #FF4519;
+}

@@ -1,0 +1,174 @@
+body{
+    color: #323232;
+    font-family: "microsoft yahei";
+    height: auto;
+    width: 100%;
+    min-width: 980px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.header{
+    width: 100%;
+    min-width: 980px;
+    /*height: 35px;*/
+    background-color: #2b2b2b;
+    border-bottom: 2px solid #008cff;
+}
+.header_main{
+    width: 980px;
+    min-width: 980px;
+    height: 35px;
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: 14px;
+    color: #fff;
+}
+.header_left{
+    float: left;
+    height: 35px;
+    line-height: 35px;
+}
+.header_left a{
+    color: red;
+}
+.header_right{
+    float: right;
+    overflow: hidden;
+}
+.header_right li{
+    float: left;
+}
+.header_right li a{
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+}
+.a_last{
+    padding-right: 0 !important;
+}
+.header_bottom{
+    width: 100%;
+    min-width: 980px;
+    height: 80px;
+    display: block;
+    background: #fff;
+}
+.header_bottom_main{
+    margin: 0 auto;
+    width: 980px;
+    min-width: 980px;
+    height: 80px;
+    line-height: 80px;
+    overflow: hidden;
+}
+.header_bottom_left{
+    float: left;
+}
+.header_bottom_left select{
+    height: 32px;
+    background-color: #eef0ed;
+}
+.header_bottom_right{
+    padding-top: 25px;
+    float: right;
+}
+.header_bottom_right li{
+    float: left;
+}
+.header_bottom_right li a{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0 10px;
+    color: black;
+}
+.header_bottom_right li a:hover{
+    background-color: #b3b3b3;
+    color: #fff;
+}
+.a_buy{
+    background-color: #ff6900 !important;
+    color: #fff !important;
+}
+.a_buy:hover{
+    background-color: #ff6900 !important;
+    color: #fff !important;
+}
+.footer{
+    width: 100%;
+    min-width: 980px;
+    height: auto;
+    border-top: 2px solid rgb(0, 140, 255);
+    background-color: #2b2b2b;
+}
+.footer_main{
+    width: 980px;
+    min-width: 980px;
+    height: auto;
+    padding: 30px 0;
+    margin: 0 auto;
+}
+.footer_top{
+    padding-bottom: 20px;
+    overflow: hidden;
+    border-bottom: 1px dashed grey;
+}
+.footer_top_left{
+    float: left;
+    width: 169px;
+    height: auto;
+}
+.footer_top_left>a{
+    display: block;
+    background: url("../images/weibo.jpg");
+    width: 62px;
+    height: 23px;
+    margin-top: 30px;
+}
+.footer_top_middle{
+    float: left;
+    overflow: hidden;
+    margin-left: 70px;
+}
+.footer_top_middle li{
+    float: left;
+    margin-right: 90px;
+}
+.footer_top_middle li dl dt{
+    color: #fff;
+    font-size: 14px;
+    line-height: 25px;
+}
+.footer_top_middle li dl dd{
+    font-size: 12px;
+    color: grey;
+}
+.footer_top_middle li dl dd a{
+    color: grey;
+    background: url("../images/index_small.png") 0 5px no-repeat;
+    padding-left: 10px;
+    line-height: 25px;
+}
+.footer_right{
+    float: right;
+    width: 90px;
+    height: 90px;
+}
+.footer_right a{
+    display: block;
+    color: grey;
+    font-size: 14px;
+    text-align: center;
+}
+.footer_bottom{
+    margin-top: 20px;
+}
+.footer_bottom p{
+    font-size: 14px;
+    line-height: 27px;
+    color: rgb(100, 100, 100);
+}
